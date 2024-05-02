@@ -16,7 +16,7 @@ import { HomeComponent } from './home/home.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'chat-bot';
+  title = 'Hopkins';
   deneme(){
     console.log("calitibutnum");
   }
