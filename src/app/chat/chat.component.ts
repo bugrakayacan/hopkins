@@ -31,12 +31,13 @@ export class ChatComponent implements AfterViewChecked {
   test:any;
   public lang:string= 'xx';
 
-  
+
 
 
   constructor(private messageService : MessageService,@Inject(DOCUMENT) document: Document,private sanitizer: DomSanitizer, public dialog: MatDialog) {
-    this.botRespond("GirisMesajimiz");
-    
+    //this.botRespond("GirisMesajimiz");
+    this.openDialog('0ms','500ms');
+
   }
 
 
@@ -54,19 +55,18 @@ export class ChatComponent implements AfterViewChecked {
       if (this.userInput.trim() !== '') {
         this.messages.push({ content: this.userInput, sender: 'user',tip:'text' }); // Kullanıcı mesajını ekle
         this.botRespond(this.userInput); // Botun cevap vermesini sağla
-        
         this.userInput = '';
       }
-    } 
+    }
     else
     {
       this.messages.splice(0);
       this.botRespond("GirisMesajimiz");
       this.userInput = '';
     }
-    
 
-    
+
+
   }
 
   // Botun cevap vermesi
@@ -100,15 +100,15 @@ export class ChatComponent implements AfterViewChecked {
     const dialogRef = this.dialog.open(DialogAnimationsExampleDialog, {
       width: '250px',
       enterAnimationDuration,
-      exitAnimationDuration,      
+      exitAnimationDuration,
     });
     dialogRef.afterClosed().subscribe(result => {
       if(result != this.lang && result != undefined)
-      { 
+      {
         this.setLang(result); }// Modaldan dönen değeri kontrol etme
     });
   }
-  
+
 }
 
 
@@ -130,5 +130,5 @@ export class DialogAnimationsExampleDialog  {
     this.dialogRef.close('tr'); // Modaldan geri dönülen değeri belirtme
   }
 
-  
+
 }
