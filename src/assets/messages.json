@@ -3,7 +3,7 @@
         {
             "question": "GirisMesajimiz",
             "answer": "Hi Sanofian ! I am Hopkins, How's your day going? You can ask me anything that comes to your mind.",
-            "answer2": " Dil Seçlan zart zurt",
+            "answer2": "You can choose your language from the settings tab.",
             "tipi":"text"
         },
         {
@@ -13,41 +13,122 @@
         },
         {
             "question": "Hosgeldin Mesaji",
-            "answer": "Sen hep hosgeldin..",
-            "tipi":"text"
-        },
-        {
-            "question": "name",
-            "answer": "My name is Hopkins.",
+            "answer": "Merhaba Sanofi'li ! Ben Hopkins, günün nasıl geçiyor ? Aklına ne gelirse bana sorabilirsin.",
             "tipi":"text"
         },
         {
             "question": "training",
-            "answer2": "https://sanofi-learning.csod.com/",
-            "answer": "You can access your courses from iLearn",
+            "answer": "https://sanofi-learning.csod.com/",
+            "answer2": "You can access your trainings from iLearn",
             "tipi":"text"
         },
         {
-            "question": "folders",
-            "answer2": "https://sanofiservices.service-now.com/onesupport",
-            "answer": "You should contact your location's IT support for this issue and start a ticket from One Support",
+            "question": "folder",
+            "answer": "https://sanofiservices.service-now.com/onesupport",
+            "answer2": "You should contact your location's IT support for this issue and start a ticket from One Support",
             "tipi":"text"
         },
         {
             "question": "visa",
-            "answer2": "https://sanofiservices.service-now.com/onesupport?id=kb_article&table=kb_knowledge&sysparm_article=KB0150739",
-            "answer": "Where is your journey my friend? Please don't forget to bring me chocolate from wherever you go 🙂 ",
+            "answer": "https://sanofiservices.service-now.com/onesupport?id=kb_article&table=kb_knowledge&sysparm_article=KB0150739",
+            "answer2": "Where is your journey my friend? Please don't forget to bring me chocolate from wherever you go 🙂. You can find the documents you will need when getting a visa from this article. ",
             "tipi":"text"
         },
         {
-            "question": "coffee break",
-            "answer": "https://www.youtube.com/embed/fjF7NWqLc-0?autoplay=1&mute=0&controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&cc_load_policy=1&&hl=en&cc_lang_pref=en&&cc_lang=en",
+            "question": "abbreviation",
+            "answer": "GBU is an abbreviation for global business unit that is used in Sanofi regularly.",
+            "tipi":"text"
+        },
+        {
+            "question": "watch",
+            "answer": "https://www.youtube.com/embed/fjF7NWqLc-0?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&fs=1",
             "answer2": "Have you watched this video in which our country's leader Cem Öztürk is a guest on Onedio channel? If you haven't watched it, I recommend you watch it. Enjoy it 🙂",
             "tipi":"video"
+        },
+        {
+            "question": "title",
+            "answer": "https://www.youtube.com/embed/9pprUJeEHCs?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&fs=1",
+            "answer2": "You can watch this video about LEAP Interns. If you cannot find an answer to the question in your mind, you can ask me again.",
+            "tipi":"video"
 
-        } 
+        },
+        {
+            "question": "eğitim",
+            "answer": "https://sanofi-learning.csod.com/",
+            "answer2": "Eğitimlerine iLearn üzerinden erişebilirsin",
+            "tipi":"text"
+        },
+        {
+            "question": "dosya",
+            "answer": "https://sanofiservices.service-now.com/onesupport",
+            "answer2": "Bulunduğun lokasyondaki IT departmanı ile iletişime geçip ticket açabilirsin.",
+            "tipi":"text"
+        },
+        {
+            "question": "vize",
+            "answer": "https://sanofiservices.service-now.com/onesupport?id=kb_article&table=kb_knowledge&sysparm_article=KB0150739",
+            "answer2": "Yolculuk nereye arkadaşım ? Gittiğin yerden bana çikolata getirmeyi unutma 🙂. Vize alırken ihtiyacın olacak belgelere bu makaleden ulaşabilirsin. ",
+            "tipi":"text"
+        },
+        {
+            "question": "kısaltma",
+            "answer": "GBU, Sanofi'de düzenli olarak kullanılan küresel iş biriminin kısaltmasıdır.",
+            "tipi":"text"
+        },
+        {
+            "question": "izle",
+            "answer": "https://www.youtube.com/embed/fjF7NWqLc-0?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&fs=1",
+            "answer2": "Ülkemizin lideri Cem Öztürk'ün Onedio kanalına konuk olduğu bu videoyu izledin mi? Eğer izlemediysen izlemeni tavsiye ederim. Tadını çıkar 🙂",
+            "tipi":"video"
+        },
+        {
+            "question": "ünvan",
+            "answer": "https://www.youtube.com/embed/9pprUJeEHCs?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&fs=1",
+            "answer2": "LEAP stajyerleri ile ilgili bu videoyu izleyebilirsin. Aklındaki soruya yanıt bulamazsan bana tekrardan soru sorabilirsin.",
+            "tipi":"video"
+        },
+        {
+            "question": "selam",
+            "answer": "Selam dostum.",
+            "tipi":"text"
+        },
+        {
+            "question": "hi",
+            "answer": "Hi buddy!",
+            "tipi":"text"
+        },
+        {
+            "question": "merhaba",
+            "answer": "Merhaba ! Seni gördüğüme sevindim.",
+            "tipi":"text"
+        },
+        {
+            "question": "hello",
+            "answer": "Hello ! I'm glad to see you",
+            "tipi":"text"
+        },
+        {
+            "question": "nasılsın",
+            "answer": "Her zamanki gibi süperim. Sen de süper görünüyorsun.",
+            "tipi":"text"
+        },
+        {
+            "question": "how are you",
+            "answer": "I'm great as always. You look great too.",
+            "tipi":"text"
+        },
+        {
+            "question": "adın",
+            "answer": "Ben Hopkins !",
+            "tipi":"text"
+        },
+        {
+            "question": "Name",
+            "answer": "I'm Hopkins !",
+            "tipi":"text"
+        }
     ],
-    "defaultAnswerTR": "Ne diyon",
+    "defaultAnswerTR": "Ne dediğini anlayamadım. Daha fazla detay verir misin ?",
     "defaultAnswerEN": "I didn't understand what you said sorry. Can you give more details ?"
   }
 
