@@ -1,0 +1,137 @@
+
+.hopkins{
+    font-family: customsolomon;
+    font-size: 150px;
+}
+
+
+.main{
+width: -webkit-fill-available;
+display: flex;
+height: 100vh;
+width: 100vw;
+}
+.left {
+
+  flex: 45%;
+    border: 2px;
+    border-style: solid;
+    border-color: purple;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+
+   flex: 55%;
+    background-color: rgba(31, 2, 73, 1);
+    color: snow;
+}
+
+
+.signinbtn {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 3rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  width: 300px;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 50px;
+}
+
+.signinbtn:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+.robotph{
+  width: 60%;
+  height: 75%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.hi{
+  color: snow;
+  font-size: 120px;
+  padding-top: 150px;
+  font-family: 'Antonio', sans-serif;
+
+}
+.hi div{
+  padding-left: 20px;
+
+}
+
+.mynameis
+{
+  height: 15vh;
+}
+
+.hitext{
+padding-bottom: 20px;
+height: 15vh;
+}
+
+.hopkinswrite 
+{
+  font-family: customsolomon;
+  font-size: 220px;
+  letter-spacing: -10px;
+
+}
+.hopkinswrite img{
+  width: 100%;
+  height: 50%;
+}
+
+.right p{
+  font-family: 'Noto Sans', sans-serif;
+  padding-left: 20px;
+  font-size: 30px;
+  padding-top: 20px;
+  font-weight: bold; 
+}
+
+
+@media screen and (max-width: 786px) {
+  .main{
+    flex-direction: column-reverse;
+   
+  }
+  .hi{
+    color: snow;
+    font-size: 80px;
+    margin-top: 150px;
+    font-family: 'Antonio', sans-serif;
+  }
+
+  .left{
+    flex:60%;
+  }
+  .right{
+    flex:40%;
+  }
+  .mynameis
+{
+  height: 10vh;
+}
+.hitext{
+  padding-bottom: 20px;
+  height: 10vh;
+  }
+}

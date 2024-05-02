@@ -1,0 +1,54 @@
+{
+    "questions": [
+        {
+            "question": "GirisMesajimiz",
+            "answer": "Hi Sanofian ! I am Hopkins, How's your day going? You can ask me anything that comes to your mind.",
+            "answer2": " Dil Seçlan zart zurt",
+            "tipi":"text"
+        },
+        {
+            "question": "Welcome Message",
+            "answer": "Hi Sanofian ! I am Hopkins, How's your day going? You can ask me anything that comes to your mind.",
+            "tipi":"text"
+        },
+        {
+            "question": "Hosgeldin Mesaji",
+            "answer": "Sen hep hosgeldin..",
+            "tipi":"text"
+        },
+        {
+            "question": "name",
+            "answer": "My name is Hopkins.",
+            "tipi":"text"
+        },
+        {
+            "question": "training",
+            "answer2": "https://sanofi-learning.csod.com/",
+            "answer": "You can access your courses from iLearn",
+            "tipi":"text"
+        },
+        {
+            "question": "folders",
+            "answer2": "https://sanofiservices.service-now.com/onesupport",
+            "answer": "You should contact your location's IT support for this issue and start a ticket from One Support",
+            "tipi":"text"
+        },
+        {
+            "question": "visa",
+            "answer2": "https://sanofiservices.service-now.com/onesupport?id=kb_article&table=kb_knowledge&sysparm_article=KB0150739",
+            "answer": "Where is your journey my friend? Please don't forget to bring me chocolate from wherever you go 🙂 ",
+            "tipi":"text"
+        },
+        {
+            "question": "coffee break",
+            "answer": "https://www.youtube.com/embed/fjF7NWqLc-0?autoplay=1&mute=0&controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&cc_load_policy=1&&hl=en&cc_lang_pref=en&&cc_lang=en",
+            "answer2": "Have you watched this video in which our country's leader Cem Öztürk is a guest on Onedio channel? If you haven't watched it, I recommend you watch it. Enjoy it 🙂",
+            "tipi":"video"
+
+        } 
+    ],
+    "defaultAnswerTR": "Ne diyon",
+    "defaultAnswerEN": "I didn't understand what you said sorry. Can you give more details ?"
+  }
+
+  
